@@ -1,12 +1,23 @@
 package com.mygdx.game;
 
 public class GameConfig {
-        // Define the dimensions for the elements as public constants
-        public static final float PLAYER_WIDTH = 32; // Width of the player texture
-        public static final float PLAYER_HEIGHT = 32; // Height of the player texture
-        public static final float ENEMY_WIDTH = 32; // Width of the enemy texture
-        public static final float ENEMY_HEIGHT = 32; // Height of the enemy texture
-        public static final float OBSTACLE_WIDTH = 32; // Width of the obstacle texture
-        public static final float OBSTACLE_HEIGHT = 32; // Height of the obstacle texture
-        public static final float TEXTURE_SCALE = 2.0f;
+    // Screen dimensions
+    public static final int SCREEN_WIDTH = 800;
+    public static final int SCREEN_HEIGHT = 600;
+
+    public static final int WORLD_WIDTH = 800;
+    public static final int WORLD_HEIGHT = 600;
+
+
+    // Player dimensions
+    public static final int PLAYER_WIDTH = 32;
+    public static final int PLAYER_HEIGHT = 32;
+
+    // Enemy dimensions
+    public static final int ENEMY_WIDTH = 32;
+    public static final int ENEMY_HEIGHT = 32;
+
+    // Obstacle dimensions
+    public static final int OBSTACLE_WIDTH = 32;
+    public static final int OBSTACLE_HEIGHT = 32;
 }
